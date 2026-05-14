@@ -1,74 +1,127 @@
 # Career-Ops Profile Configuration
-# Copy this file to config/profile.yml and fill in your details.
-# This is the single source of truth for your personal data across all modes.
+# Fonte de verdade dos seus dados pessoais para todos os modes.
+# Gerado com base no perfil LinkedIn de Diogo Mondin — maio/2026
 
 candidate:
-  full_name: "Jane Smith"
-  email: "jane@example.com"
-  phone: "+1-555-0123"
-  location: "San Francisco, CA"
-  linkedin: "linkedin.com/in/janesmith"
-  portfolio_url: "https://janesmith.dev"
-  github: "github.com/janesmith"
-  twitter: "https://x.com/janesmith"
+  full_name: "Diogo Mondin Siqueira Silva"
+  email: "diogomondin@gmail.com"
+  phone: "+55 (12) 98290-7910"
+  location: "São José dos Campos - SP, Brasil"
+  linkedin: "linkedin.com/in/diogo-mondin"
+  portfolio_url: "https://www.linkedin.com/in/diogo-mondin"
+  github: "https://github.com/DiogoMondin"
+  twitter: ""
 
 target_roles:
-  # Your North Star roles — what you're optimizing for
+  # Cargos-alvo — o que você está buscando
   primary:
-    - "Senior AI Engineer"
-    - "Staff ML Engineer"
-  # Archetypes help the evaluation system score fit
+    - "Analista de Dados Pleno"
+    - "Analista de BI Pleno"
+  # Arquétipos usados pelo sistema de scoring para avaliar fit com as vagas
   archetypes:
-    - name: "AI/ML Engineer"
-      level: "Senior/Staff"
-      fit: "primary"        # primary = dream role, secondary = good fit, adjacent = stretch
-    - name: "AI Product Manager"
-      level: "Senior"
+    - name: "Analista de Dados"
+      level: "Pleno"
+      fit: "primary"        # primary = vaga ideal, secondary = bom fit, adjacent = stretch
+    - name: "Analista de BI"
+      level: "Pleno"
+      fit: "primary"
+    - name: "Engenheiro de Dados"
+      level: "Junior/Pleno"
       fit: "secondary"
-    - name: "Solutions Architect"
-      level: "Mid-Senior"
+    - name: "Cientista de Dados"
+      level: "Junior/Pleno"
+      fit: "secondary"
+    - name: "Analista de Marketing Analytics"
+      level: "Pleno/Senior"
       fit: "adjacent"
 
 narrative:
-  # Your professional headline (1 line)
-  headline: "ML Engineer turned AI product builder"
-  # Your exit story — what makes you unique
-  exit_story: "Built and sold my SaaS after 5 years. Now focused on applied AI at scale."
-  # Your top 3-5 superpowers
+  # Headline profissional (1 linha — usado em CVs e avaliações)
+  headline: "Analista de Dados Pleno | +3 anos de experiência | Python, SQL, Power BI, Azure Databricks"
+
+  # Sua história profissional — o que te diferencia
+  exit_story: >
+    Analista de Dados com mais de 3 anos de experiência transformando dados em decisões.
+    Passei pela EDP Brasil fazendo gestão de dados georreferenciados e automação de processos,
+    e hoje na Qeevo Group lidero tecnicamente o time de marketing analytics, desenvolvendo
+    modelos preditivos de ROAS e dashboards estratégicos. Formação em Geoprocessamento
+    (FATEC) e MBA em Data Science & Analytics em andamento pela USP/Esalq.
+
+  # Seus principais diferenciais técnicos e comportamentais
   superpowers:
-    - "End-to-end ML pipelines"
-    - "Fast prototyping (idea to prod in 2 weeks)"
-    - "Cross-functional communication"
-  # Proof points — projects, articles, case studies with measurable impact
+    - "Modelagem preditiva aplicada a negócio (ex: previsão de ROAS antes da execução de campanhas)"
+    - "Construção de dashboards estratégicos para tomada de decisão (Power BI)"
+    - "Análise de funil de conversão, CRM e performance de marketing digital"
+    - "Automação de processos com Python e integração de dados via SQL / Azure Databricks"
+    - "Comunicação de insights para times não-técnicos (marketing, comercial, diretoria)"
+
+  # Provas de impacto — projetos com métricas reais
   proof_points:
-    - name: "Project Alpha"
-      url: "https://janesmith.dev/project-alpha"
-      hero_metric: "Reduced inference latency 40%"
-    - name: "Open Source Tool"
-      url: "https://github.com/janesmith/tool"
-      hero_metric: "2K+ GitHub stars"
-  # Optional: dashboard/demo URL with credentials
-  # dashboard:
-  #   url: "https://janesmith.dev/demo"
-  #   password: "demo-2026"
+    - name: "Modelo Preditivo de ROAS — Qeevo Group"
+      url: ""
+      hero_metric: "Modelo estatístico que antecipa performance de campanhas e orienta distribuição estratégica de budget antes da execução"
+
+    - name: "Dashboards de Marketing Performance — Qeevo Group"
+      url: ""
+      hero_metric: "Dashboards de tráfego, funil de conversão e mídia paga usados pelo time de marketing para decisões estratégicas em tempo real"
+
+    - name: "Automação e Dashboards de Geração Distribuída — EDP Brasil"
+      url: ""
+      hero_metric: "Dashboards e modelos de análise para acompanhamento do processo de migração de clientes para mini/microgeração de energia"
+
+    - name: "Gestão de Dados Georreferenciados — EDP Brasil"
+      url: ""
+      hero_metric: "Modelagem de dados técnicos e comerciais com foco em informações georreferenciadas, sintetizadas em dashboards para análise estratégica"
 
 compensation:
-  target_range: "$150K-200K"     # Your target total comp
-  currency: "USD"
-  minimum: "$120K"               # Walk-away number
-  location_flexibility: "Remote preferred, 1 week/month on-site possible"
+  contract_preference: "CLT preferencial, PJ aceito"
+  currency: "BRL"
+  target_range: "A preencher"   # Ex: "R$ 8.000 – R$ 12.000/mês CLT"
+  minimum: "A preencher"        # Seu piso de negociação — importante para os scripts de negociação
+  notes: >
+    Para vagas PJ, considerar 30-40% acima do equivalente CLT bruto.
+    Para vagas remotas internacionais (USD/EUR), avaliar caso a caso.
 
 location:
-  country: "United States"
-  city: "San Francisco"
-  timezone: "PST"
-  visa_status: "No sponsorship needed"
-  # For remote roles outside your country:
-  # onsite_availability: "1 week/month in any city"
+  country: "Brasil"
+  city: "São José dos Campos"
+  state: "SP"
+  timezone: "BRT (UTC-3)"
+  work_model: "Remoto"                         # Remoto | Híbrido | Presencial
+  onsite_availability: "Vale do Paraíba e Grande São Paulo"
+  visa_status: "Não aplicável"
+
+background:
+  # Contexto adicional usado pelo Claude para avaliações e geração de CV
+  total_experience_years: 3
+  current_role: "Analista de Dados Pleno — Qeevo Group (fev/2026–presente)"
+  education:
+    - degree: "MBA em Data Science e Analytics"
+      institution: "USP/Esalq"
+      year: "2024–presente"
+    - degree: "Tecnólogo em Geoprocessamento"
+      institution: "FATEC Jacareí"
+      year: "2020–2022"
+    - degree: "Técnico em Eletroeletrônica"
+      institution: "SENAI São José dos Campos"
+      year: "2018–2019"
+  tech_stack:
+    core:       ["Python", "SQL", "Power BI"]
+    cloud:      ["Azure Databricks"]
+    etl:        ["FME", "Apache Airflow"]
+    enterprise: ["SAP", "Office 365"]
+    methods:    ["Metodologias ágeis", "Análise estatística", "Modelagem preditiva", "Geoprocessamento"]
+  domain_expertise:
+    - "Marketing Analytics & Performance Digital"
+    - "CRM Analytics & Segmentação de Clientes"
+    - "Funil de Conversão & Growth Analytics"
+    - "Geração Distribuída de Energia (setor elétrico)"
+    - "Automação de Processos"
+    - "Gestão e Qualidade de Dados"
 
 cv:
-  output_format: "html" # "html" (default) or "latex"
-  # (Optional) Canva resume design ID for visual CV generation via /career-ops pdf.
-  # Find it in your Canva design URL: https://www.canva.com/design/DAxxxxxxx/...
-  # The ID starts with "D" and is 11 characters long.
+  output_format: "html"   # "html" (padrão) ou "latex"
+  language: "pt-BR"
+  # (Opcional) ID do design no Canva para geração visual via /career-ops pdf
+  # Encontre na URL: https://www.canva.com/design/DAxxxxxxx/...
   # canva_resume_design_id: "DAxxxxxxxxx"
